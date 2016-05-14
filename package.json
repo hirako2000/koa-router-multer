@@ -1,0 +1,44 @@
+{
+  "name": "koa-router-multer",
+  "version": "1.0.0",
+  "description": "Middleware for handling `multipart/form-data` for koa-router",
+  "author": "Hirako2000",
+  "license": "MIT",
+  "repository": "hirako2000/koa-router-multer",
+  "keywords": [
+    "form",
+    "post",
+    "multipart",
+    "form-data",
+    "formdata",
+    "koa",
+    "middleware"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.x",
+    "form-data": "^0.x",
+    "fs-temp": "^1.x",
+    "isparta": "^4.x",
+    "koa": "^2.0.0",
+    "koa-router": "^5.4.0",
+    "mocha": "^2.x",
+    "on-finished": "^2.x",
+    "rimraf": "^2.x"
+  },
+  "dependencies": {
+    "multer": "^1.1.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "files": [
+    "History.md",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ]
+}
