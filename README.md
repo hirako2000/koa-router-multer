@@ -1,7 +1,10 @@
 # koa-router-multer
 Wrapper of koa-multer, for koa-router
 
-[license-img]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
+
+[![Dependency Status](https://david-dm.org/hirako2000/koa-router-multer.svg)](https://david-dm.org/hirako2000/koa-router-multer)
+[![devDependency Status](https://david-dm.org/hirako2000/koa-router-multer/dev-status.svg)](https://david-dm.org/hirako2000/koa-router-multer#info=devDependencies)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/hirako2000/koa-router-multer/edit/master/LICENSE)
 
 ## Install
 
