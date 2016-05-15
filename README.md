@@ -10,7 +10,29 @@ $ npm install --save koa-router-multer
 ```
 
 ## Usage
-See [koa-multer](https://github.com/koa-modules/multer)
+
+Import the module
+```js
+import multer from 'koa-router-multer';
+```
+
+Set the upload folder for file uploads
+```js
+var upload = multer({ dest: 'uploads/' });
+```
+Example of resource 
+```js
+route.post('/upload', upload.single('file'), function * (next) {
+  var filename = this.req.file.filename;
+  var mimeType = this.req.file.mimetype;
+  ...
+  ...
+});
+```
+
+
+
+See more, [koa-multer](https://github.com/koa-modules/multer)
 
 ## License
 
