@@ -1,5 +1,7 @@
 # koa-router-multer
-Wrapper of koa-multer, for koa-router
+Wrapper of koa-multer, for koa-router.
+
+Tested with Koa 2.x, should work with Koa 1.x as well.
 
 
 [![Dependency Status](https://david-dm.org/hirako2000/koa-router-multer.svg)](https://david-dm.org/hirako2000/koa-router-multer)
