@@ -1,6 +1,6 @@
 {
   "name": "koa-router-multer",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "Middleware for handling `multipart/form-data` for koa-router",
   "author": "Hirako2000",
   "license": "MIT",
@@ -16,21 +16,21 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec --bail --check-leaks"
+    "test": "mocha --reporter spec --bail --check-leaks",
+    "test-ci": "isparta cover _mocha --report lcovonly -- --reporter spec --check-leaks test/*.js",
+    "test-cov": "isparta cover _mocha -- --reporter dot --check-leaks test/*.js"
   },
   "devDependencies": {
-    "concat-stream": "^1.x",
-    "form-data": "^0.x",
-    "fs-temp": "^1.x",
-    "isparta": "^4.x",
-    "koa": "^2.0.0",
-    "koa-router": "^5.4.0",
-    "mocha": "^2.x",
-    "on-finished": "^2.x",
-    "rimraf": "^2.x"
+    "concat-stream": "^1",
+    "form-data": "^2",
+    "isparta": "^4",
+    "koa": "^2",
+    "koa-router": "^7",
+    "mocha": "^3",
+    "on-finished": "^2"
   },
   "dependencies": {
-    "multer": "^1.1.0"
+    "multer": "1.2.1"
   },
   "engines": {
     "node": ">= 4"
