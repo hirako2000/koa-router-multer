@@ -3,7 +3,7 @@ Wrapper of koa-multer, for koa-router.
 
 Tested with Koa 2.x, should work with Koa 1.x as well.
 
-
+[![Build Status](https://travis-ci.org/hirako2000/koa-router-multer.svg?branch=master)](https://travis-ci.org/hirako2000/koa-router-multer)
 [![Dependency Status](https://david-dm.org/hirako2000/koa-router-multer.svg)](https://david-dm.org/hirako2000/koa-router-multer)
 [![devDependency Status](https://david-dm.org/hirako2000/koa-router-multer/dev-status.svg)](https://david-dm.org/hirako2000/koa-router-multer#info=devDependencies)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/hirako2000/koa-router-multer/blob/master/LICENSE)
