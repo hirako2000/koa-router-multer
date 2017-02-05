@@ -4,7 +4,7 @@
  * multer
  * Copyright(c) 2014 Hage Yaapa
  * Copyright(c) 2015 Fangdun Cai
- * Copyright(c) 2016 Hirako2000
+ * Copyright(c) 2017 Hirako2000
  * MIT Licensed
  */
 
